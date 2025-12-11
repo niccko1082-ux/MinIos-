@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPRODUCTOR</title>
+    <link rel="icon" href="image/icon.jpeg">
+    <link rel="stylesheet" href="stylem.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           <a href="index.html" class="pagina_inicio">Inicio</a>
+           
+            <select class="seleccionar_genero">
+                <option>Género</option>
+                <option>Electrónica</option>
+                <option>Rock</option>
+                <option>Pop</option>
+                <option>Jazz</option>
+                <option>Salsa</option>
+                <option>Country</option>
+            </select>
+
+            <select class="seleccionar_lista">
+                <option>Lista</option>
+                <option>Electro</option>
+                <option>Pop</option>
+                <option>Mix</option>
+            </select>
+
+            <a href="#favorita" class="fav">Favoritas</a>
+        </ul>
+    </nav>
+
+    <div class="contenedor">
+        <h2 class="titulo"> Mi reproductor</h2>
+        <img src="image/logo.jpg" alt="musica" class="logo">  
+        <audio id="player" controls>
+            <source>
+        </audio>
+        <div class="botones">
+            <button id="play">play</button>
+            <button id="pause">pause</button>
+        </div>
+    </div>
+
+    <div id="favorita" class="ventana">
+        <h2>Mis favoritas</h2>
+
+        <ul class="lista-musica">
+            <li><button class="cancion">Canción 1</button></li>
+            <li><button class="cancion">Canción 2</button></li>
+            <li><button class="cancion">Canción 3</button></li>
+            <li><button class="cancion">Canción 4</button></li>
+        </ul>
+        <button class="btn-reproducir">Reproducir</button>
+        <a href="#" class="cerrar">X</a>
+    </div>
+</body>
+</html>

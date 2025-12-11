@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/fondo4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul {
+    background-color: rgb(87, 26, 4);
+    width: 100%;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    line-height: 60px;
+}
+
+.seleccionar_genero {
+    height: 20px;
+    margin-top: 20px;
+    background-color: rgb(161, 44, 1);
+    border: none;
+    box-shadow: 3px 5px 7px rgb(245, 80, 4);
+    border-radius: 4px;
+}
+
+.seleccionar_lista {
+    height: 20px;
+    margin-top: 20px;
+    background-color: rgb(161, 44, 1);
+    border: none;
+    box-shadow: 3px 5px 7px rgb(245, 80, 4);
+    border-radius: 4px;
+}
+
+.pagina_inicio {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(161, 44, 1) ;
+    padding-left: 20PX;
+    padding-right: 20px;
+    box-shadow: 3px 5px 7px rgb(245, 80, 4);
+    border-radius: 4px;
+}
+
+option {
+    background-color: black;
+    color: white;
+}
+
+.seleccionar_genero:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 4px 7px 8px white;
+}
+
+.seleccionar_lista:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 4px 7px 8px white;
+}
+
+.pagina_inicio:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 7px 9px 9px white;
+}
+
+.contenedor {
+    width: 350px;
+    padding: 20px;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(0,0,0,0.4);
+    text-align: center;
+    backdrop-filter:blur(5px);
+}
+
+.logo {
+    width: 350px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: rgb(253, 128, 82) 4px 6px 4px;
+}
+
+.botones button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
+.botones button:hover {
+    color: orangered;
+    background-color: black;
+    box-shadow: white 3px 6px 7px;
+}
+
+#player {
+    box-shadow: orangered 4px 6px 7px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.abrir-favoritos {
+    color: white;
+    background: black;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.ventana {
+    position: fixed;
+    top: 30%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background: rgb(0,0,0,0.85);
+    border-radius: 15px;
+    color: white;
+    display: none;
+    text-align: center;
+}
+
+.ventana:target {
+    display: block;
+}
+
+.lista-musica {
+    list-style: none;
+    background-color: rgb(0,0,0,0);
+    display: inline;
+}
+
+.lista-musica li {
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+.btn-reproducir {
+    padding: 10px 20px;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cerrar {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fav {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(161, 44, 1) ;
+    padding-left: 20PX;
+    padding-right: 20px;
+    box-shadow: 3px 5px 7px rgb(245, 80, 4);
+    border-radius: 4px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 22px;
+}
+
+.fav:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 7px 9px 9px white;
+}
+
+.cancion {
+    background-color: orangered;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding:10px;
+}
+
+.cancion:hover {
+    color: white;
+    background-color: black;
+    box-shadow: white 4px 6px 9px;
+}
