@@ -1,3 +1,4 @@
+/* Format and assign the background in the lock screen */
 body {
     margin: 0;
     background-image: url(Images/interfaz.png);
@@ -6,7 +7,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
-
+/* Format the desktop */
 .desktop {
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@ body {
     bottom: 120px;
 }
 
+/* Format the icons */
 .icon {
     width: 8vw;
     height: 8vw;
@@ -30,8 +32,7 @@ body {
     object-fit: cover;
 }
 
-
-
+/* Format the windows */
 .app-window {
     position: absolute;
     top: 0;
@@ -48,25 +49,29 @@ body {
     z-index: 1000;
 }
 
+/* Format the windows when they are opened */
 .app-window:target {
     display: flex;
 }
 
+/* Format the windows header */
 .window-header {
     background-color: #e0e0e0;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ccc;
 }
 
+/* Format the windows title */
 .window-title {
     font-family: sans-serif;
     font-weight: bold;
     color: #333;
 }
 
+/* Format the close button */
 .close-btn {
     width: 25px;
     height: 25px;
@@ -80,23 +85,27 @@ body {
     transition: transform 0.2s;
 }
 
+/* Format the close button when you hover it */
 .close-btn:hover {
     transform: scale(1.1);
     background-color: transparent;
 }
 
+/* Format the windows content */
 .window-content {
     flex-grow: 1;
     position: relative;
     background: white;
 }
 
+/* Format the iframe */
 .window-content iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
 
+/* Format the dock */
 .dock {
     position: fixed;
     bottom: 10px;
@@ -105,7 +114,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px 20px;
     display: flex;
     gap: 15px;
@@ -113,16 +122,19 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Format the dock links */
 .dock a {
     display: block;
     transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+/* Format the dock links when you hover it */
 .dock a:hover {
     transform: scale(1.2) translateY(-5px);
     margin: 0 5px;
 }
 
+/* Format the dock icons */
 .dock .icon {
     width: 60px;
     height: 60px;

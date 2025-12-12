@@ -1,3 +1,4 @@
+/* Format and asign the background in the lock screen */
 body {
     margin: 0;
     padding: 0;
@@ -10,10 +11,12 @@ body {
     overflow: hidden;
 }
 
+/*  Few styles for the lock screen */
 .pantalla-bloqueo {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,6 +27,7 @@ body {
     color: white;
 }
 
+/* Order the clock and date in the lock screen  */
 .contenedor-reloj {
     text-align: center;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -41,6 +45,7 @@ body {
     font-weight: 400;
 }
 
+/* Styles of the button */
 .boton-entrar {
     background: rgba(255, 255, 255, 0.2);
     padding: 15px 40px;
@@ -55,6 +60,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Styles of the button when you hover it */
 .boton-entrar:hover {
     background: rgba(255, 255, 255, 0.4);
     transform: scale(1.05);

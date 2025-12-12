@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Explorador de archivos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="desktop">
+    <div class="window">
+      <div class="window-title">
+        <span>Explorador de archivos</span>
+        <div class="window-buttons">
+          <span class="btn close"></span>
+          <span class="btn min"></span>
+          <span class="btn max"></span>
+        </div>
+      </div>
+
+      <div class="window-body">
+        <aside class="sidebar">
+          <h3>Carpetas</h3>
+          <a href="sub/documentos.html" target="visor"><img src="../../Images/archivos.png" alt="archivos" class="iconos"> Documentos</a>
+          <a href="sub/imagenes.html" target="visor"><img src="../../Images/foto.png" alt="archivos" class="iconos"> Imágenes</a>
+          <a href="sub/musica.html" target="visor"><img src="../../Images/musica.png" alt="archivos" class="iconos"> Música</a>
+          <a href="sub/video.html" target="visor"><img src="../../Images/video.png" alt="archivos" class="iconos"> Videos</a>
+          <a href="sub/favoritos.html" target="visor"><img src="../../Images/favoritos.png" alt="archivos" class="iconos"> Favoritos</a>
+
+          <h3>Equipo</h3>
+          <a href="sub/equipo.html" target="visor"><img src="../../Images/equipo.png" alt="archivos" class="iconos"> Mi equipo</a>
+        </aside>
+
+        <main class="viewer">
+          <iframe name="visor" src="documentos.html" frameborder="0"></iframe>
+        </main>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

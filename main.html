@@ -1,78 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" id="deneral">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escritorio</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    <!-- Desktop -->
     <main class="desktop">
+        <a href="#admin"><img class="icon" src="Images/carpeta.png" alt="Carpeta"></a>
         <a href="#applemusic"><img class="icon" src="Images/spotify.png" alt="Spotify"></a>
         <a href="#chromeWindow"><img class="icon" src="Images/chrome.png" alt="Chrome"></a>
         <a href="#notasWindow"><img class="icon" src="Images/notas.png" alt="Notas"></a>
         <a href="#calculadoraWindow"><img class="icon" src="Images/calculadora.png" alt="Calculadora"></a>
-        <a href="#Enlace de pagina 4"><img class="icon" src="#direccion de la imagen" alt=""></a>
-        <a href="#Enlace de pagina 5"><img class="icon" src="#direccion de la imagen" alt=""></a>
+        <a href="#productividadWindow"><img class="icon" src="Images/productividad.png" alt="Productividad"></a>
     </main>
 
-    <!-- Chrome Window -->
-    <section id="chromeWindow" class="app-window" aria-label="Google Chrome Window">
+    <!-- Ventana no existente (placeholder) -->
+    <section id="EnlaceDePagina4" class="app-window" aria-label="Carpeta">
+        <header class="window-header">
+            <h2 class="window-title">Carpeta</h2>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
+        </header>
+        <div class="window-content">
+            <p>No hay contenido definido para esta ventana.</p>
+        </div>
+    </section>
 
+    <!-- Chrome Window -->
+    <section id="chromeWindow" class="app-window" aria-label="Ventana de Google Chrome">
         <header class="window-header">
             <h2 class="window-title">Google Chrome</h2>
-            <a href="#" class="close-btn" aria-label="Close"></a>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
         </header>
 
         <div class="window-content">
-            <iframe src="apps/google/chrome.html" title="Google Browser"></iframe>
+            <iframe src="apps/google/chrome.html" title="Navegador Google Chrome"></iframe>
         </div>
     </section>
 
     <!-- Notas Window -->
-    <section id="notasWindow" class="app-window" aria-label="Notas Window">
+    <section id="notasWindow" class="app-window" aria-label="Ventana de Notas">
         <header class="window-header">
             <h2 class="window-title">Notas</h2>
-            <a href="#" class="close-btn" aria-label="Close"></a>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
         </header>
 
         <div class="window-content">
-            <iframe src="apps/notas/notas.html" title="Notas App"></iframe>
+            <iframe src="apps/notas/notas.html" title="Notas"></iframe>
         </div>
     </section>
 
     <!-- Calculadora Window -->
-    <section id="calculadoraWindow" class="app-window" aria-label="Calculadora Window">
+    <section id="calculadoraWindow" class="app-window" aria-label="Ventana de Calculadora">
         <header class="window-header">
             <h2 class="window-title">Calculadora</h2>
-            <a href="#" class="close-btn" aria-label="Close"></a>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
         </header>
 
         <div class="window-content">
-            <iframe src="apps/calculadora/calculadora.html" title="AppleMusic"></iframe>
+            <iframe src="apps/calculadora/calculadora.html" title="Calculadora"></iframe>
         </div>
     </section>
 
     <!-- AppleMusic -->
-    <section id="applemusic" class="app-window" aria-label="Calculadora Window">
+    <section id="applemusic" class="app-window" aria-label="Ventana de Apple Music">
         <header class="window-header">
-            <h2 class="window-title">AppleMusic</h2>
-            <a href="#" class="close-btn" aria-label="Close"></a>
+            <h2 class="window-title">Apple Music</h2>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
         </header>
 
         <div class="window-content">
-            <iframe src="apps/apple-music/music.html" title="Calculadora App"></iframe>
+            <iframe src="apps/apple-music/music.html" title="Apple Music"></iframe>
         </div>
     </section>
 
+    <!-- Administrador de archivos -->
+    <section id="admin" class="app-window" aria-label="Ventana del Administrador de Archivos">
+        <header class="window-header">
+            <h2 class="window-title">Administrador de archivos</h2>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
+        </header>
+
+        <div class="window-content">
+            <iframe src="apps/administrador-de-archivos/administrador-de-archivs.html"
+                title="Administrador de archivos"></iframe>
+        </div>
+    </section>
+
+    <!-- Productividad Window -->
+    <section id="productividadWindow" class="app-window" aria-label="Ventana de Productividad">
+        <header class="window-header">
+            <h2 class="window-title">Productividad</h2>
+            <a href="#" class="close-btn" aria-label="Cerrar"></a>
+        </header>
+
+        <div class="window-content">
+            <iframe src="apps/Productividad/index.html" title="Productividad"></iframe>
+        </div>
+    </section>
+
+    <!-- Dock -->
     <footer class="dock">
         <a href="#applemusic"><img class="icon" src="Images/spotify.png" alt="Spotify"></a>
         <a href="#chromeWindow"><img class="icon" src="Images/chrome.png" alt="Google Chrome"></a>
         <a href="#notasWindow"><img class="icon" src="Images/notas.png" alt="Notas"></a>
         <a href="#calculadoraWindow"><img class="icon" src="Images/calculadora.png" alt="Calculadora"></a>
-        <a href="#Enlace de pagina 5"><img class="icon" src="" alt="App 5"></a>
+        <a href="#admin"><img class="icon" src="Images/carpeta.png" alt="Administrador de archivos"></a>
+        <a href="#productividadWindow"><img class="icon" src="Images/productividad.png" alt="Productividad"></a>
     </footer>
 </body>
 
