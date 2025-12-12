@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Productivity</h2>
+        <ul>
+            <li class="active">🏠 Inicio</li>
+            <li>📝 Tareas</li>
+            <li>📅 Calendario</li>
+            <li>⏱ Pomodoro</li>
+            <li>📊 Estadísticas</li>
+            <li>⚙ Configuración</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <header>
+            <input type="text" placeholder="Buscar...">
+            <div class="user">
+                <span>Sofia</span>
+            </div>
+        </header>
+
+        <section class="widgets">
+
+            <div class="card big">
+                <h3>Progreso semanal</h3>
+                <div class="progress">
+                    <div class="bar" style="width: 70%;"></div>
+                </div>
+                <p>70% completado</p>
+            </div>
+
+            <div class="card">
+                <h3>Tareas rápidas</h3>
+                <ul class="task-list">
+                    <li>✔ Revisar email</li>
+                    <li>⬜ Terminar presentación</li>
+                    <li>⬜ Llamar a cliente</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Notas</h3>
+                <textarea placeholder="Escribe tus notas aquí..."></textarea>
+            </div>
+
+            <div class="card">
+                <h3>Eventos hoy</h3>
+                <ul class="events">
+                    <li>📌 Reunión 10:00</li>
+                    <li>📌 Gym 18:00</li>
+                </ul>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+</html>
